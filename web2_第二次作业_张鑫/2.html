@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8" />
+  <title>音乐排行榜</title>
+  </head>
+
+  <body>
+  <meta name="viewport" content="width=device-width,user-scalable=0,initial-scale=1,maximum-scale=1"/>
+  <h2>音乐排行榜</h2>
+  <ol>
+  <li onclick="fang1()">安妮的仙境.m4a<img src="pic1.png" /></li>
+  <li onclick="fang2()">犬夜叉.m4a <img src="pic1.png" /></li>
+  <li onclick="fang3()">雪见落入凡间.m4a<img src="pic1.png" /></li>
+  <li onclick="fang4()">一千年以后.m4a <img src="pic1.png" /></li>
+  </ol>
+
+<script>
+var music=new Audio();
+
+function fang1 (){
+  music.src="安妮的仙境.m4a";
+  music.play();
+}
+
+
+function fang2 () {
+  music.src="犬夜叉.m4a";
+  music.play();
+}
+
+function fang3 () {
+  music.src="雪见落入凡尘.m4a";
+  music.play();
+}
+
+function fang4 () {
+  music.src = "一千年以后.m4a";
+  music.play();
+}
+</script>
+  </body>
+
+
+<html> 
